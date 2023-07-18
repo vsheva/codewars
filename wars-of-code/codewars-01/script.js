@@ -1,5 +1,6 @@
 // let str = "Hello Valera my name Vika";
 
+
 // a = str.split("");             //1
 // console.log(a);
 
