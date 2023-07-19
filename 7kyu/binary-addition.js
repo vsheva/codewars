@@ -13,9 +13,10 @@
 
 //https://www.w3schools.com/jsref/jsref_tostring_number.asp
 
-function addBinary(a,b) {
-return (a+b).toString(2)
+function addBinary(a, b) {
+    return (a + b).toString(2)
 }
 
-console.log(addBinary(1,2))
-console.log(addBinary(9,5))
+
+console.log(addBinary(1, 2))
+console.log(addBinary(9, 5))
