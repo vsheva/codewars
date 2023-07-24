@@ -1,4 +1,6 @@
 // ❓ Description:
+
+//https://www.codewars.com/kata/57e3f79c9cb119374600046b/train/javascript
 //
 //     Define a method hello that returns "Hello, Name!" to a given name, or says Hello, World! if name is not given (or passed as an empty String).
 //
