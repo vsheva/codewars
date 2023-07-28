@@ -9,15 +9,16 @@
 // ✅ Solution 1:
 
 
-// function sayHello( name, city, state ) {
-//     for(let i = 0; i < name.length; i++) {
-//        name= name.toString().replace(",", " ")
-//     }
-//     return `Hello, ${name}! Welcome to ${city}, ${state}!`
-// }
-//
-// console.log(sayHello(['Franklin','Delano','Roosevelt',"Jr."], 'Chicago', 'Illinois'))
+function sayHello( name, city, state ) {
+    for(let i = 0; i < name.length; i++) {
+       name= name.toString().replace(",", " ")
+    }
+    return `Hello, ${name}! Welcome to ${city}, ${state}!`
+}
 
+console.log(sayHello(['Franklin','Delano','Roosevelt',"Jr."], 'Chicago', 'Illinois'))
+
+// ✅ Solution 2:
 
 function sayHello( name, city, state ) {
     name= name.join(" ")
@@ -25,3 +26,7 @@ function sayHello( name, city, state ) {
 }
 
 console.log(sayHello(['Franklin','Delano','Roosevelt',"Jr."], 'Chicago', 'Illinois'))
+
+const man={name: 'Franklin', city: 'Andy'}
+const newArr= Array(man);
+console.log(newArr)
