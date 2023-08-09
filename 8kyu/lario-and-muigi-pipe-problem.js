@@ -13,36 +13,33 @@
 
 // ✅ Solution:
 
-function pipeFix(numbers){
+function pipeFix(numbers) {
 
     const first = numbers[0];
     const last = numbers[numbers.length - 1];
 
-    const list =[];
-
-    for(let i = first; i <= last; i++) {
-        list.push(i)
-    }
+    const list = Array(last - first + 1).fill().map((_, index) => first + index);
     return list
+
 }
 
-console.log(pipeFix([1,2,3,12]));
+console.log(pipeFix([1, 2, 3, 12]));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// function pipeFix(numbers){
+//
+//     const first = numbers[0];
+//     const last = numbers[numbers.length - 1];
+//
+//     const list =[];
+//
+//     for(let i = first; i <= last; i++) {
+//         list.push(i)
+//     }
+//     return list
+// }
+//
+// console.log(pipeFix([1,2,3,12]));
 
 
 // function pipeFix(numbers){
