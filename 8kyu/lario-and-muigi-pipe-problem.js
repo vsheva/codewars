@@ -14,14 +14,46 @@
 // ✅ Solution:
 
 function pipeFix(numbers){
-    var min = numbers[0];
-    var max = numbers[numbers.length - 1];
-    var array = [];
 
-    for(var i = min; i<=max; i++)
-    {
-        array.push(i);
+    const first = numbers[0];
+    const last = numbers[numbers.length - 1];
+
+    const list =[];
+
+    for(let i = first; i <= last; i++) {
+        list.push(i)
     }
-
-    return array;
+    return list
 }
+
+console.log(pipeFix([1,2,3,12]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function pipeFix(numbers){
+//     var min = numbers[0];
+//     var max = numbers[numbers.length - 1];
+//     var array = [];
+//
+//     for(var i = min; i<=max; i++)
+//     {
+//         array.push(i);
+//     }
+//
+//     return array;
+// }
