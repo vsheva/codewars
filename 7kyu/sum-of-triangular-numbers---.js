@@ -26,10 +26,11 @@ const sumOfTriangles= (n)=>{
     return sum
 }
 
-const n = 5;
+
 
 
 /**
+ *
 Solution 02
 function sumTriangularNums(n) {
     return n < 0 ? 0 : n * (n + 1) * (n + 2) / 6;
