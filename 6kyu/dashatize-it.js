@@ -26,11 +26,23 @@ DESCRIPTION:
 //
 // };
 
-const dashatize = (num) => {
+/*const dashatize = (num) => {
 
     return num.toString().split("").map(el=> el%2 ? `-${el}-` : el) //строку разбили в массив и добавили дефис к нечетным
         .join("").split("-")    //собрали массив  в строку и разбили ее в массив по дефису
         .filter(a=> a!="").join("-")// убрали пустое в строке и собрали массив в строку
+}*/
+
+
+
+
+
+const dashatize = (num) => {
+    return num.toString().split("").map(el =>el%2 ? `-${el}-` : el)
+        .join("-").split("-").filter(a=> a!=="").join("-")
 }
+
+
+
 
 console.log(dashatize(24452223754))
