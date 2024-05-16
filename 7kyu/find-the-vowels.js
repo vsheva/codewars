@@ -13,7 +13,7 @@ Vowels in this context refers to: a e i o u y (including upper case)
 This is indexed from [1..n] (not zero indexed!)
 */
 
-function vowelIndices(word) {
+/*function vowelIndices(word) {
     const str = "aeiouy"
     const wordArr = word.toLowerCase().split('');
 
@@ -27,4 +27,9 @@ function vowelIndices(word) {
     return arr
 }
 
-console.log(vowelIndices("valera"))
+console.log(vowelIndices("valera"))*/
+
+function Rect() {}
+
+const PracticeRect = new Rect();
+console.log(PracticeRect)
