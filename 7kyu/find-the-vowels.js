@@ -29,7 +29,20 @@ This is indexed from [1..n] (not zero indexed!)
 
 console.log(vowelIndices("valera"))*/
 
-function Rect() {}
+function Rect(name, width, height) {
+    this.name = name;
+    this.width = width;
+    this.height = height;
+    this.do=()=>{
+        return this.width*this.height;
+    }
+}
 
-const PracticeRect = new Rect();
-console.log(PracticeRect)
+const PracticeRect1 = new Rect("Dave", 10,20);
+const PracticeRect2 = new Rect("Alex", 40,60);
+const PracticeRect3 = new Rect("Ana", 40,60);
+console.log(PracticeRect1.name)
+console.log(PracticeRect2.name)
+console.log(PracticeRect3.name)
+console.log(PracticeRect1.do())
+
