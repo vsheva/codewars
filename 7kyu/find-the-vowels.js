@@ -46,3 +46,5 @@ console.log(PracticeRect2.name)
 console.log(PracticeRect3.name)
 console.log(PracticeRect1.do())
 
+console.log(PracticeRect3 instanceof Rect)
+

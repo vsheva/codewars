@@ -10,3 +10,5 @@
 // If two words score the same, return the word that appears earliest in the original string.
 
 // All letters will be lowercase and all inputs will be valid.
+
+console.log("Hello from Node.js");
