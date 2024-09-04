@@ -7,7 +7,5 @@
 // orderedCount("abracadabra") == [['a', 5], ['b', 2], ['r', 2], ['c', 1], ['d', 1]]
 
 
-const orderedCount = function (text) {
-    // Implement me!
-    return [];
-}
+const orderedCount = text =>
+    [...new Set(text)].map(val => [val, text.split(val).length - 1])
