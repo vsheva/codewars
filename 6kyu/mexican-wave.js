@@ -116,15 +116,15 @@ console.log(calculator(5, 0, "/"))
 // закрывающих скобок одного типа (последовательность не так важна, но если решите и это, то супер)
 
 
-const arr=['(', ')', '(', ')', ')', '(',];
-const left=[]
-const right=[]
-
-for( let i=0; i<arr.length; i++ ) {
-    if (arr[i]==="(") left.push(arr[i]);
-    else  right.push(arr[i])
-}
-left.length===right.length ? console.log("ravno") : console.log("ne ravno")
+// const arr=['(', ')', '(', ')', ')', '(',];
+// const left=[]
+// const right=[]
+//
+// for( let i=0; i<arr.length; i++ ) {
+//     if (arr[i]==="(") left.push(arr[i]);
+//     else  right.push(arr[i])
+// }
+// left.length===right.length ? console.log("ravno") : console.log("ne ravno")
 
 
 //Taks 5
