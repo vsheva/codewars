@@ -7,14 +7,14 @@
 ******
 
 */
-let star="";
+let result="";
 
 for(let str = 0;  str <=5; str++) {
 
      for (let eachStr = 1; eachStr <=str; eachStr++) {
-        star=star+"*"
+        result=result+"*"
     }
-    star=star+"\n"
+    result=result+"\n"
 
 }
-console.log(star)
+console.log(result)
