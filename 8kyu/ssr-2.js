@@ -1,46 +1,73 @@
+
+//1
 // *****
 // ****
 // ***
 // **
 // *
 
-//1
-/*
-let star="";
 
-for(let str = 5;  str >=1; str--) {
+// let result="";
+//
+// for(let str = 5;  str >=1; str--) {
+//
+//     for (let eachStr = str; eachStr >=1; eachStr--) {
+//         result=result+"*"
+//     }
+//     result=result+"\n"
+//
+// }
+// console.log(result)
 
-    for (let eachStr = str; eachStr >=1; eachStr--) {
-        star=star+"*"
-    }
-    star=star+"\n"
 
-}
-console.log(star)
-*/
+//2
+// *****
+// ****
+// ***
+// **
+// *
 
-//1
-// let star="";
+
+// let result="";
 //
 // for(let str = 5;  str >=1; str--) {
 //
 //     for (let eachStr = 1; eachStr <=str; eachStr++) {
-//         star=star+"*"
+//         result=result+"*"
 //     }
-//     star=star+"\n"
+//     result=result+"\n"
 //
 // }
-// console.log(star)
+// console.log(result)
+
 
 //3
-
-//3 цикла
 
  // *****
  //  ****
  //   ***
  //    **
  //     *
+
+
+let result="";
+
+for(let str = 1;  str <=5; str++) {
+    for (let space = 1; space <str; space++) {
+        result=result+"_"
+    }
+
+        for (let star = str; star<=5; star++) {
+            result=result+"*"
+    }
+    result=result+"\n"
+}
+console.log(result)
+
+
+
+
+
 
 
 // for (let i = 0; i < 5; i++) {
@@ -50,17 +77,3 @@ console.log(star)
 
 
 //task
-//
-// let result="";
-//
-// for(let str = 1;  str <=5; str++) {
-//     for (let space = 1; space <str; space++) {
-//         result=result+"_"
-//     }
-//
-//         for (let star = str; star<=5; star++) {
-//             result=result+"*"
-//     }
-//     result=result+"\n"
-// }
-// console.log(result)
