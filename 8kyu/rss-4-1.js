@@ -11,6 +11,8 @@
 // console.log(result)
 
 
+
+//Верх лево
 let result="";
 
 for(let str = 10;  str >=1; str--) {
@@ -18,19 +20,22 @@ for(let str = 10;  str >=1; str--) {
         result=result+"_"
     }
 
-    for (let star = str; star<=10; star++) {
+    for (let star = str; star<=10 ; star++) {
         result=result+"*"
     }
 
-    // for (let star = str; star<=9; star++) {
-    //     result=result+"*"
-    // }
+    for (let star = str; star<10 ; star++) {
+        result=result+"*"
+    }
 
     result=result+"\n"
 }
 console.log(result)
 
 
+
+
+////низ лево
 let result1="";
 
 for(let str = 1;  str <=10; str++) {
@@ -42,6 +47,9 @@ for(let str = 1;  str <=10; str++) {
         result1=result1+"*"
     }
 
+    for (let star = str; star<10; star++) {
+        result1=result1+"*"
+    }
 
 
     result1=result1+"\n"
@@ -51,21 +59,4 @@ for(let str = 1;  str <=10; str++) {
 console.log(result1)
 
 
-// let result3="";
-//
-// for(let str = 10;  str >=1; str--) {
-//
-//     for (let star = str; star<=10; star++) {
-//         result3=result3+"*"
-//     }
-//
-//     for (let space = 1; space <str; space++) {
-//         result3=result3+"_"
-//     }
-//
-//     result3=result3+"\n"
-// }
-//
-//
-// console.log(result3)
 
