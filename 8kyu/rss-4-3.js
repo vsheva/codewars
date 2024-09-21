@@ -30,18 +30,23 @@
 //  console.log(result)
 
 
-// let result=""
-// let rows =5
-//
-// for (let i = 1; i <= rows; i++) {
-//     let start = i
-//     for (let col = 1; col<=i; col++) {
-//         result+=start;
-//         start = start + (rows -col)
-//     }
-//     result =result +"\n"
-// }
-// console.log(result)
+
+let result=""
+let rows =5
+let start = 1
+
+for (let i = 1; i <= rows; i++) {
+
+    for (let col = 1; col<=i; col++) {
+        result+=start;
+        start++
+        //start = start + (rows -col)
+    }
+    result =result +"\n"
+}
+console.log(result)
+
+
 
 // Определяем количество строк в треугольнике
 // const numRows = 5;
