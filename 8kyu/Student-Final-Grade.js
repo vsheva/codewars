@@ -6,3 +6,6 @@ function finalGrade (exam, projects) {
 }
 
 console.log(finalGrade(100, 12))
+
+
+//const finalGrade = (grade, projects) => grade > 90 || projects > 10 ? 100 : grade > 75 && projects > 4 ? 90 : grade > 50 && projects > 1 ? 75 : 0;
