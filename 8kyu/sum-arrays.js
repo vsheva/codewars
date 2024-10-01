@@ -23,8 +23,13 @@
 
 // ✅
 
-function sum (numbers) {
-    "use strict";
-    return numbers.reduce((a,b)=>a+b,0)
+function sum(numbers) {
+  'use strict';
+  let sum = 0;
+  for (let item of numbers) {
+    sum += item;
+  }
+  return sum;
+}
 
-};
+console.log(sum([1, 5.2, 4, 0, -1, 6]))
