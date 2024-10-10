@@ -50,11 +50,38 @@ console.log(obj); //{ car: 'volvo', carModel: 2 }
 // console.log(myPerson)
 
 
-let obj={
-  name1: "John",
-  age: 17
+// let obj={
+//   name1: "John",
+//   age: 17
+// }
+//
+// for (let key in obj) {
+//   console.log(obj[key])
+// }
+
+
+
+
+class User {
+
+  constructor(name) {
+    // вызывает сеттер
+    this.name = name;
+  }
+
+  get name() {
+    return this._name;
+  }
+
+  set name(value) {
+    if (value.length < 4) {
+      alert("Имя слишком короткое.");
+      return;
+    }
+    this._name = value;
+  }
+
 }
 
-for (let key in obj) {
-  console.log(obj[key])
-}
+let user = new User("Маргарита");
+console.log(user.name); // Иван
