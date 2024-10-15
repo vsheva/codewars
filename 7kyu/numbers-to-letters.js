@@ -1,6 +1,6 @@
 function switcher(x) {
     //let alphabet = ' ?!ABCDEFGHIJKLMNOPQRSTUVWXYZ'.toLowerCase().split("").reverse()
-    let alphabet = [
+    let alphabet = ["",
         'z', 'y', 'x', 'w', 'v', 'u',
         't', 's', 'r', 'q', 'p', 'o',
         'n', 'm', 'l', 'k', 'j', 'i',
@@ -11,7 +11,7 @@ function switcher(x) {
 
     let newStr = ''
     for (let i = 0; i < x.length; i++) {
-        newStr += alphabet[Number(x[i]) - 1]
+        newStr += alphabet[Number(x[i])]
 
         /* for (let j = 0; j < alphabet.length; j++) {
              //console.log("index", alphabet.indexOf(" ") + 1)
@@ -21,6 +21,18 @@ function switcher(x) {
          }*/
     }
     return newStr
+}
+
+function switcher($) {
+    let alphabet = ["",
+        'z', 'y', 'x', 'w', 'v', 'u',
+        't', 's', 'r', 'q', 'p', 'o',
+        'n', 'm', 'l', 'k', 'j', 'i',
+        'h', 'g', 'f', 'e', 'd', 'c',
+        'b', 'a', '!', '?', ' '
+    ]
+
+    return $.map(el => alphabet[el]).join("")
 }
 
 
