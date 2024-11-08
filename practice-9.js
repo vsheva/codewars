@@ -72,4 +72,4 @@ const person2 = {
     }
 }
 
-//person2.sayHello();
+person2.sayHello();
